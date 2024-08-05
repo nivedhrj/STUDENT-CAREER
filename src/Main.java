@@ -1,11 +1,11 @@
 import java.util.*;
-class Main{
+class Student_Career{
     int mm;
     int scm;
     int com;
     int total;
     double per;
-    Main(int mm, int scm,int com){
+    Student_Career(int mm, int scm,int com){
        this.mm=mm;
        this.scm=scm;
        this.com=com;
@@ -38,7 +38,7 @@ class Main{
         }
     }
     public static void main(String[]Args){
-        Main Main=new Main(0,0,0);
+        Student_Career Main=new Student_Career(0,0,0);
         Main.input();
         Main.check();
     }
