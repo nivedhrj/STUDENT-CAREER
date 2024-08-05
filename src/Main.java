@@ -34,7 +34,7 @@ class Main{
             System.out.println("Science with Hindi");
         }
         else{
-            System.out.println("You are not eligible.");
+            System.out.println("You are not eligible for this.");
         }
     }
     public static void main(String[]Args){
